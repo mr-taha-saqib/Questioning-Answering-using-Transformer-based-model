@@ -61,18 +61,3 @@ Use the guidelines provided at [SimpleTransformers QA Documentation](https://sim
    - Report the results in a comparative table, including the hyperparameter values used to achieve the best results.
 
 ---
-
-## Results Reporting
-
-| Model        | Dropout Rate | Encoder Layers | BLEU Score | ROUGE Score | Hyperparameters Used                   |
-|--------------|--------------|----------------|------------|-------------|-----------------------------------------|
-| BERT         | 0.3          | 12             | X.XX       | Y.YY        | Learning Rate: 5e-5, Batch Size: 16     |
-| MobileBERT   | 0.7          | 24             | X.XX       | Y.YY        | Learning Rate: 3e-5, Batch Size: 16     |
-| RoBERTa      | 0.3          | 12             | X.XX       | Y.YY        | Learning Rate: 4e-5, Batch Size: 8      |
-
-### Additional Outputs
-- For a few questions, display the models' top 5 predicted answers along with the actual answer for comparison.
-
----
-
-Leverage this dataset to drive innovation in healthcare question answering and empower researchers to build advanced natural language processing systems.
